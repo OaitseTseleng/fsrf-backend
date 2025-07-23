@@ -5,6 +5,6 @@ export default ({ env }) => ({
     keys: env.array('APP_KEYS'),
   },
   server: {
-    allowedHosts: ['all'],
+    allowedHosts: ['ec2-54-163-39-211.compute-1.amazonaws.com'],
   },
 });
