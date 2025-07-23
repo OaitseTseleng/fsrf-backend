@@ -10,7 +10,7 @@ export default (config: UserConfig) => {
       server: {
         host: '0.0.0.0',
         port: 1337,
-        allowedHosts: ['ec2-54-163-39-211.compute-1.amazonaws.com'],
+        allowedHosts: ['ec2-13-218-95-118.compute-1.amazonaws.com'],
       },
     },
   });
